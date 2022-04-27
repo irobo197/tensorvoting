@@ -10,13 +10,13 @@ If you are interested in the library and its application, please feel free to ci
 ## Installation
 **Navigate into the src folder of your ROS workspace and type in the terminal:**
 ```
-git clone https://github.com/ethz-asl/libnabo.git
+git clone https://github.com/irobo197/libnabo.git
 ```
 ```
-git clone https://github.com/ethz-asl/libpointmatcher.git
+git clone https://github.com/irobo197/libpointmatcher.git
 ```
 ```
-git clone https://github.com/ethz-asl/ethzasl_icp_mapping.git
+git clone https://github.com/irobo197/ethzasl_icp_mapping.git
 ```
 **Change version of gcc and g++ if error "unsuppoerted" happens**
 - For Ubuntu18.04:
