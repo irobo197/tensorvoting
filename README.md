@@ -38,7 +38,7 @@ sudo update-alternatives --config c++
 ```
 **Make each folder above according to installation in the link to each repo**
 ```
-SRC_DIR=$PWD}
+SRC_DIR=${PWD}
 BUILD_DIR=${SRC_DIR}/build
 mkdir -p ${BUILD_DIR} && cd ${BUILD_DIR}
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ${SRC_DIR}
@@ -47,6 +47,10 @@ sudo make install
 **Navigate to _include_ folder of libpointmatcher_ros and type this command**
 ```
 sudo cp -r pointmatcher_ros /usr/local/include
+```
+**Add cutil_math.h from below**
+```
+https://github.com/kashif/cuda-workshop/blob/master/cutil/inc/cutil_math.h
 ```
 **Navigate back to the main folder of the caktin workspace and compile the packages**
 ```
