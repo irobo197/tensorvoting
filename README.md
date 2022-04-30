@@ -48,7 +48,7 @@ sudo make install
 ```
 sudo cp -r pointmatcher_ros /usr/local/include
 ```
-**Add cutil_math.h from below**
+**Add cutil_math.h from below into _/usr/include_**
 ```
 https://github.com/kashif/cuda-workshop/blob/master/cutil/inc/cutil_math.h
 ```
